@@ -1,0 +1,1672 @@
+{
+  "version": 7,
+  "nextId": 91,
+  "nextConnId": 71,
+  "devices": [
+    {
+      "id": "dev1",
+      "type": "ISP",
+      "name": "ISP1",
+      "x": 993.7334614734394,
+      "y": -533.8229587352346,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "200.100.50.1",
+        "subnetMask": "255.255.255.252",
+        "gateway": "",
+        "public": true,
+        "dhcpEnabled": false
+      },
+      "interfaces": [
+        {
+          "name": "WL-UP",
+          "type": "WAN",
+          "speed": "∞",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "2A:E6:B1:2A:CD:16",
+          "ipConfig": null
+        },
+        {
+          "name": "FIBRA0",
+          "type": "WAN",
+          "speed": "1000Mbps",
+          "mediaType": "fibra",
+          "vlan": 1,
+          "status": "up",
+          "mac": "4A:02:21:78:9C:82",
+          "ipConfig": null
+        },
+        {
+          "name": "FIBRA1",
+          "type": "WAN",
+          "speed": "1000Mbps",
+          "mediaType": "fibra",
+          "vlan": 1,
+          "status": "up",
+          "mac": "F9:42:BD:4C:C6:0B",
+          "ipConfig": null
+        },
+        {
+          "name": "COBRE0",
+          "type": "WAN",
+          "speed": "100Mbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "2B:BC:28:D8:14:99",
+          "ipConfig": null
+        },
+        {
+          "name": "COBRE1",
+          "type": "WAN",
+          "speed": "100Mbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "D8:EA:C9:7B:55:15",
+          "ipConfig": null
+        }
+      ],
+      "bandwidth": 1000,
+      "planName": "Fibra"
+    },
+    {
+      "id": "dev2",
+      "type": "ISP",
+      "name": "ISP2",
+      "x": 1296.297817530285,
+      "y": -532.5033976236848,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "181.30.20.1",
+        "subnetMask": "255.255.255.252",
+        "gateway": "",
+        "public": true,
+        "dhcpEnabled": false
+      },
+      "interfaces": [
+        {
+          "name": "WL-UP",
+          "type": "WAN",
+          "speed": "∞",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "D2:53:ED:88:4A:9C",
+          "ipConfig": null
+        },
+        {
+          "name": "FIBRA0",
+          "type": "WAN",
+          "speed": "1000Mbps",
+          "mediaType": "fibra",
+          "vlan": 1,
+          "status": "up",
+          "mac": "92:6E:35:2C:DC:97",
+          "ipConfig": null
+        },
+        {
+          "name": "FIBRA1",
+          "type": "WAN",
+          "speed": "1000Mbps",
+          "mediaType": "fibra",
+          "vlan": 1,
+          "status": "up",
+          "mac": "31:91:DD:72:1F:76",
+          "ipConfig": null
+        },
+        {
+          "name": "COBRE0",
+          "type": "WAN",
+          "speed": "100Mbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "EF:54:FA:C1:53:C7",
+          "ipConfig": null
+        },
+        {
+          "name": "COBRE1",
+          "type": "WAN",
+          "speed": "100Mbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "B2:63:DA:C1:53:79",
+          "ipConfig": null
+        }
+      ],
+      "bandwidth": 1000,
+      "planName": "Fibra"
+    },
+    {
+      "id": "dev3",
+      "type": "Router",
+      "name": "R1-BORDE",
+      "x": 1148.9882508254293,
+      "y": -305.2768256576961,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.1.254",
+        "subnetMask": "255.255.255.0",
+        "gateway": "",
+        "dhcpEnabled": false
+      },
+      "interfaces": [
+        {
+          "name": "WAN0",
+          "type": "WAN",
+          "speed": "10Gbps",
+          "mediaType": "fibra",
+          "vlan": 1,
+          "status": "up",
+          "mac": "86:AC:D2:D9:94:18",
+          "ipConfig": {
+            "ipAddress": "200.100.50.2",
+            "subnetMask": "255.255.255.252",
+            "vlan": 1
+          }
+        },
+        {
+          "name": "WAN1",
+          "type": "WAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "55:E0:45:87:3E:7E",
+          "ipConfig": {
+            "ipAddress": "181.30.20.2",
+            "subnetMask": "255.255.255.252",
+            "vlan": 1
+          }
+        },
+        {
+          "name": "WAN2",
+          "type": "WAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "98:6D:DA:C9:16:97",
+          "ipConfig": null
+        },
+        {
+          "name": "WAN3",
+          "type": "WAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "90:1C:93:BD:E8:BD",
+          "ipConfig": null
+        },
+        {
+          "name": "LAN0",
+          "type": "LAN",
+          "speed": "10Gbps",
+          "mediaType": "fibra",
+          "vlan": 10,
+          "status": "up",
+          "mac": "AD:C7:EE:76:55:E9",
+          "ipConfig": {
+            "ipAddress": "192.168.10.1",
+            "subnetMask": "255.255.255.0",
+            "vlan": 10
+          }
+        },
+        {
+          "name": "LAN1",
+          "type": "LAN",
+          "speed": "10Gbps",
+          "mediaType": "fibra",
+          "vlan": 20,
+          "status": "up",
+          "mac": "08:E6:51:42:92:10",
+          "ipConfig": {
+            "ipAddress": "192.168.20.1",
+            "subnetMask": "255.255.255.0",
+            "vlan": 20
+          }
+        },
+        {
+          "name": "LAN2",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 3,
+          "status": "down",
+          "mac": "07:B2:F0:79:A2:6C",
+          "ipConfig": {
+            "ipAddress": "192.168.3.254",
+            "subnetMask": "255.255.255.0",
+            "vlan": 3
+          }
+        },
+        {
+          "name": "LAN3",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 4,
+          "status": "down",
+          "mac": "55:15:D3:10:6C:E7",
+          "ipConfig": {
+            "ipAddress": "192.168.4.254",
+            "subnetMask": "255.255.255.0",
+            "vlan": 4
+          }
+        },
+        {
+          "name": "LAN4",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 5,
+          "status": "down",
+          "mac": "63:90:93:3B:84:2C",
+          "ipConfig": {
+            "ipAddress": "192.168.5.254",
+            "subnetMask": "255.255.255.0",
+            "vlan": 5
+          }
+        },
+        {
+          "name": "LAN5",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 6,
+          "status": "down",
+          "mac": "E3:59:CA:2E:ED:23",
+          "ipConfig": {
+            "ipAddress": "192.168.6.254",
+            "subnetMask": "255.255.255.0",
+            "vlan": 6
+          }
+        }
+      ],
+      "bandwidth": {
+        "total": 0,
+        "used": 0,
+        "isps": []
+      },
+      "vlanConfig": {
+        "LAN0": {
+          "vlanId": 10,
+          "network": "192.168.10.0/24",
+          "gateway": "192.168.10.1",
+          "dhcp": true
+        },
+        "LAN1": {
+          "vlanId": 20,
+          "network": "192.168.20.0/24",
+          "gateway": "192.168.20.1",
+          "dhcp": true
+        },
+        "LAN2": {
+          "vlanId": 3,
+          "network": "192.168.3.0/24",
+          "gateway": "192.168.3.254",
+          "dhcp": true
+        },
+        "LAN3": {
+          "vlanId": 4,
+          "network": "192.168.4.0/24",
+          "gateway": "192.168.4.254",
+          "dhcp": true
+        },
+        "LAN4": {
+          "vlanId": 5,
+          "network": "192.168.5.0/24",
+          "gateway": "192.168.5.254",
+          "dhcp": true
+        },
+        "LAN5": {
+          "vlanId": 6,
+          "network": "192.168.6.0/24",
+          "gateway": "192.168.6.254",
+          "dhcp": true
+        }
+      },
+      "dhcpServer": {
+        "poolName": "default",
+        "network": "192.168.1.0/24",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.1.254",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "leases": {},
+        "range": {
+          "start": "192.168.1.10",
+          "end": "192.168.1.200"
+        }
+      },
+      "loadBalancing": false,
+      "backupMode": true,
+      "natRules": [
+        {
+          "type": "PAT",
+          "acl": "1",
+          "interface": "WAN0",
+          "overload": true
+        },
+        {
+          "type": "PAT",
+          "acl": "1",
+          "interface": "WAN1",
+          "overload": true
+        }
+      ]
+    },
+    {
+      "id": "dev4",
+      "type": "Switch",
+      "name": "SW1-CORE",
+      "x": 1146.733983092115,
+      "y": -140.76346193627086,
+      "status": "up",
+      "ipConfig": null,
+      "interfaces": [
+        {
+          "name": "FIB-IN",
+          "type": "UPLINK",
+          "speed": "10Gbps",
+          "mediaType": "fibra",
+          "vlan": 10,
+          "status": "up",
+          "mac": "E5:4B:46:D3:65:74",
+          "ipConfig": null
+        },
+        {
+          "name": "FIB-OUT",
+          "type": "UPLINK",
+          "speed": "10Gbps",
+          "mediaType": "fibra",
+          "vlan": 20,
+          "status": "up",
+          "mac": "8A:23:19:B7:5B:67",
+          "ipConfig": null
+        },
+        {
+          "name": "port2",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 10,
+          "status": "up",
+          "mac": "57:29:C7:2F:B8:E5",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port3",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 10,
+          "status": "up",
+          "mac": "F0:1A:8B:C2:0D:E1",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port4",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 10,
+          "status": "up",
+          "mac": "F9:D8:B4:EB:85:A1",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port5",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 10,
+          "status": "up",
+          "mac": "60:24:99:51:CF:8C",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port6",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 10,
+          "status": "up",
+          "mac": "38:5D:D6:8B:AC:4C",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port7",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 20,
+          "status": "up",
+          "mac": "32:E5:D5:8C:8C:5D",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port8",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 20,
+          "status": "up",
+          "mac": "F2:49:8A:F8:28:4B",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port9",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 20,
+          "status": "up",
+          "mac": "8B:9E:3B:FA:C9:F8",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port10",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 20,
+          "status": "up",
+          "mac": "51:9B:95:9E:FE:E0",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port11",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 20,
+          "status": "up",
+          "mac": "C8:6E:FF:E6:76:59",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port12",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 10,
+          "status": "up",
+          "mac": "A3:74:B6:C9:20:48",
+          "ipConfig": null,
+          "stpPortfast": true
+        },
+        {
+          "name": "port13",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "71:1D:7D:64:F5:88",
+          "ipConfig": null
+        },
+        {
+          "name": "port14",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "down",
+          "mac": "4E:69:56:FD:C0:02",
+          "ipConfig": null
+        },
+        {
+          "name": "port15",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "down",
+          "mac": "0C:A5:9D:45:5F:1A",
+          "ipConfig": null
+        },
+        {
+          "name": "port16",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "down",
+          "mac": "93:D4:8B:E3:01:96",
+          "ipConfig": null
+        },
+        {
+          "name": "port17",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "down",
+          "mac": "4F:FF:14:69:10:C3",
+          "ipConfig": null
+        },
+        {
+          "name": "port18",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "down",
+          "mac": "A0:64:DE:47:82:38",
+          "ipConfig": null
+        },
+        {
+          "name": "port19",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "down",
+          "mac": "C0:0A:03:5F:C8:9D",
+          "ipConfig": null
+        },
+        {
+          "name": "port20",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "down",
+          "mac": "1D:DB:CC:47:CA:4D",
+          "ipConfig": null
+        },
+        {
+          "name": "port21",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "down",
+          "mac": "64:E2:EB:06:F7:83",
+          "ipConfig": null
+        },
+        {
+          "name": "port22",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "down",
+          "mac": "7C:85:D6:9D:7D:EC",
+          "ipConfig": null
+        },
+        {
+          "name": "port23",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "down",
+          "mac": "78:8C:17:45:D1:8E",
+          "ipConfig": null
+        }
+      ],
+      "ports": 24,
+      "vlans": {
+        "1": {
+          "name": "VLAN1",
+          "network": "192.168.1.0/24",
+          "gateway": "192.168.1.254"
+        },
+        "10": {
+          "name": "VLAN10",
+          "network": "192.168.10.0/24",
+          "gateway": "192.168.10.1"
+        },
+        "20": {
+          "name": "VLAN20",
+          "network": "192.168.20.0/24",
+          "gateway": "192.168.20.1"
+        }
+      },
+      "_vlanPortConfig": {
+        "port2": {
+          "mode": "access",
+          "vlan": 10,
+          "nativeVlan": 10,
+          "allowedVlans": [
+            10
+          ]
+        },
+        "port3": {
+          "mode": "access",
+          "vlan": 10,
+          "nativeVlan": 10,
+          "allowedVlans": [
+            10
+          ]
+        },
+        "port4": {
+          "mode": "access",
+          "vlan": 10,
+          "nativeVlan": 10,
+          "allowedVlans": [
+            10
+          ]
+        },
+        "port5": {
+          "mode": "access",
+          "vlan": 10,
+          "nativeVlan": 10,
+          "allowedVlans": [
+            10
+          ]
+        },
+        "port6": {
+          "mode": "access",
+          "vlan": 10,
+          "nativeVlan": 10,
+          "allowedVlans": [
+            10
+          ]
+        },
+        "port7": {
+          "mode": "access",
+          "vlan": 20,
+          "nativeVlan": 20,
+          "allowedVlans": [
+            20
+          ]
+        },
+        "port8": {
+          "mode": "access",
+          "vlan": 20,
+          "nativeVlan": 20,
+          "allowedVlans": [
+            20
+          ]
+        },
+        "port9": {
+          "mode": "access",
+          "vlan": 20,
+          "nativeVlan": 20,
+          "allowedVlans": [
+            20
+          ]
+        },
+        "port10": {
+          "mode": "access",
+          "vlan": 20,
+          "nativeVlan": 20,
+          "allowedVlans": [
+            20
+          ]
+        },
+        "port11": {
+          "mode": "access",
+          "vlan": 20,
+          "nativeVlan": 20,
+          "allowedVlans": [
+            20
+          ]
+        },
+        "port12": {
+          "mode": "access",
+          "vlan": 10,
+          "nativeVlan": 10,
+          "allowedVlans": [
+            10
+          ]
+        },
+        "FIB-IN": {
+          "mode": "access",
+          "vlan": 10,
+          "nativeVlan": 10,
+          "allowedVlans": [
+            10
+          ]
+        },
+        "FIB-OUT": {
+          "mode": "access",
+          "vlan": 20,
+          "nativeVlan": 20,
+          "allowedVlans": [
+            20
+          ]
+        }
+      },
+      "inheritedVlan": {
+        "vlanId": 20,
+        "network": "192.168.20.0/24",
+        "gateway": "192.168.20.1",
+        "dhcp": true
+      }
+    },
+    {
+      "id": "dev5",
+      "type": "PC",
+      "name": "PC5- Admin",
+      "x": -43.03857977303717,
+      "y": 77.16877987495013,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.10.11",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.10.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "R1-BORDE(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "1F:36:FA:D0:B1:6A",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "C7:76:61:AF:D8:DF",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev6",
+      "type": "PC",
+      "name": "PC6-ADMIN",
+      "x": 213.57749206035814,
+      "y": 87.43648059858063,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.10.12",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.10.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "R1-BORDE(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "68:7E:F8:1B:76:47",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "BE:BB:40:08:91:50",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev7",
+      "type": "PC",
+      "name": "PC7-ADMIN",
+      "x": 404.31076190184973,
+      "y": 78.68586830697356,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.10.13",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.10.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "R1-BORDE(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "9E:3D:CD:AD:89:5D",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "71:26:D0:65:13:2D",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev8",
+      "type": "PC",
+      "name": "PC8-ADMIN",
+      "x": 625.058080448852,
+      "y": 84.66876237618268,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.10.14",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.10.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "R1-BORDE(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "D3:91:AC:15:61:C9",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "54:53:36:FB:58:2D",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev9",
+      "type": "PC",
+      "name": "PC9-ADMIN",
+      "x": 844.9827600356791,
+      "y": 86.14312097876382,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.10.15",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.10.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "R1-BORDE(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "83:BF:4F:79:35:55",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "EF:26:83:F0:83:78",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev10",
+      "type": "PC",
+      "name": "PC10 -VENTAS",
+      "x": 1417.587949725333,
+      "y": 76.43160057365957,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.20.11",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.20.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "Router3(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "73:7F:5B:0E:E8:5C",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "9B:77:89:78:93:81",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev11",
+      "type": "PC",
+      "name": "PC11-VENTAS",
+      "x": 1618.132318331394,
+      "y": 78.60040864808897,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.20.12",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.20.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "Router3(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "6F:48:99:6D:3F:F8",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "68:0E:1D:48:77:73",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev12",
+      "type": "PC",
+      "name": "PC12-VENTAS",
+      "x": 1842.7364527026182,
+      "y": 83.06621428527468,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.20.13",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.20.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "Router3(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "7C:25:9B:C3:8F:83",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "E2:46:5C:50:FD:39",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev13",
+      "type": "PC",
+      "name": "PC13-VENTAS",
+      "x": 2069.281378858078,
+      "y": 86.41194005295758,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.20.14",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.20.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "Router3(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "94:5D:DF:4D:2D:D5",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "1D:A4:5A:DE:84:1D",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev14",
+      "type": "PC",
+      "name": "PC14-VENTAS",
+      "x": 2281.674118315002,
+      "y": 80.42904598374844,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.20.15",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.20.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "Router3(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "26:D9:A8:FF:10:0A",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "DA:4A:BE:EE:D0:47",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev15",
+      "type": "Server",
+      "name": "SERVIDOR DE ARCHIVOS",
+      "x": 373.1309102372913,
+      "y": -221.70710451131234,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.10.10",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.10.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "R1-BORDE(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "28:AD:E9:AE:B6:51",
+          "ipConfig": null
+        },
+        {
+          "name": "ETH1",
+          "type": "LAN",
+          "speed": "10Gbps",
+          "mediaType": "fibra",
+          "vlan": 1,
+          "status": "up",
+          "mac": "16:6B:62:A2:2B:A8",
+          "ipConfig": null
+        },
+        {
+          "name": "MGMT",
+          "type": "MGMT",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "B7:84:42:7E:F0:1C",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev16",
+      "type": "AP",
+      "name": "AP1",
+      "x": 1895.7774508510133,
+      "y": -233.67289264973058,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.10.2",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.10.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "Router3(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH-UP",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "83:B7:B4:9B:45:4C",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 10,
+          "status": "up",
+          "mac": "91:B1:CE:E8:63:7C",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN-MESH",
+          "type": "LAN",
+          "speed": "867Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "down",
+          "mac": "A0:34:4E:1D:47:D9",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN1",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 20,
+          "status": "up",
+          "mac": "51:99:98:B7:D3:DE",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN2",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "down",
+          "mac": "F9:CD:1C:5B:29:73",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN3",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "down",
+          "mac": "D4:52:A9:3F:98:7A",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN4",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "down",
+          "mac": "0D:65:B4:B9:39:1C",
+          "ipConfig": null
+        }
+      ],
+      "ssid": "AP-AP16",
+      "meshEnabled": false,
+      "meshId": "Mesh-AP16",
+      "meshRole": "node",
+      "meshAutoConnect": true
+    },
+    {
+      "id": "dev17",
+      "type": "Laptop",
+      "name": "ADM-LAP1",
+      "x": 2170.990578034633,
+      "y": -514.8689139025595,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.10.31",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.10.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "R1-BORDE(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "DD:E7:49:C8:10:A5",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "13:8D:03:15:97:4A",
+          "ipConfig": null
+        }
+      ]
+    },
+    {
+      "id": "dev18",
+      "type": "Laptop",
+      "name": "VEN-LAP1",
+      "x": 2170.990578034633,
+      "y": -257.6044689265671,
+      "status": "up",
+      "ipConfig": {
+        "ipAddress": "192.168.20.31",
+        "subnetMask": "255.255.255.0",
+        "gateway": "192.168.20.1",
+        "dns": [
+          "8.8.8.8"
+        ],
+        "dhcpEnabled": false,
+        "dhcpServer": "Router3(VLAN10)",
+        "leaseTime": 86400
+      },
+      "interfaces": [
+        {
+          "name": "ETH0",
+          "type": "LAN",
+          "speed": "1Gbps",
+          "mediaType": "cobre",
+          "vlan": 1,
+          "status": "up",
+          "mac": "AF:56:6F:BD:69:F2",
+          "ipConfig": null
+        },
+        {
+          "name": "WLAN0",
+          "type": "LAN",
+          "speed": "300Mbps",
+          "mediaType": "wireless",
+          "vlan": 1,
+          "status": "up",
+          "mac": "E6:C8:5E:CE:65:B4",
+          "ipConfig": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "fromId": "dev1",
+      "toId": "dev3",
+      "fromIntf": "FIBRA0",
+      "toIntf": "WAN0",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "fibra",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 0.5,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev2",
+      "toId": "dev3",
+      "fromIntf": "COBRE0",
+      "toIntf": "WAN1",
+      "status": "up",
+      "speed": "100Mbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 100,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev3",
+      "toId": "dev4",
+      "fromIntf": "LAN0",
+      "toIntf": "FIB-IN",
+      "status": "up",
+      "speed": "10Gbps",
+      "type": "fibra",
+      "linkState": {
+        "bandwidth": 10000,
+        "latency": 0.5,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev5",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port2",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev6",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port3",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev7",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port4",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev8",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port5",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev9",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port6",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev10",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port7",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev11",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port8",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev12",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port9",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev13",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port10",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev14",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port11",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev15",
+      "toId": "dev4",
+      "fromIntf": "ETH0",
+      "toIntf": "port12",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev16",
+      "toId": "dev4",
+      "fromIntf": "ETH-UP",
+      "toIntf": "port13",
+      "status": "up",
+      "speed": "1Gbps",
+      "type": "cobre",
+      "linkState": {
+        "bandwidth": 1000,
+        "latency": 1,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev17",
+      "toId": "dev16",
+      "fromIntf": "WLAN0",
+      "toIntf": "WLAN0",
+      "status": "up",
+      "speed": "300Mbps",
+      "type": "wireless",
+      "linkState": {
+        "bandwidth": 300,
+        "latency": 5,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev18",
+      "toId": "dev16",
+      "fromIntf": "WLAN0",
+      "toIntf": "WLAN1",
+      "status": "up",
+      "speed": "300Mbps",
+      "type": "wireless",
+      "linkState": {
+        "bandwidth": 300,
+        "latency": 5,
+        "lossRate": 0,
+        "status": "up"
+      }
+    },
+    {
+      "fromId": "dev3",
+      "toId": "dev4",
+      "fromIntf": "LAN1",
+      "toIntf": "FIB-OUT",
+      "status": "up",
+      "speed": "10Gbps",
+      "type": "fibra",
+      "linkState": {
+        "bandwidth": 10000,
+        "latency": 0.5,
+        "lossRate": 0,
+        "status": "up"
+      }
+    }
+  ],
+  "annotations": [],
+  "mplsLSPs": [],
+  "vpnTunnels": []
+}
